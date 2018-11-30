@@ -10,6 +10,7 @@
 ## 开启nginx gzip
 ```js
 gzip  on;  #开启gzip
+gzip_static on;
 gzip_min_length 1k;  #低于1kb的资源不压缩
 gzip_comp_level 3; #压缩级别【1-9】，越大压缩率越高，同时消耗cpu资源也越多，建议设置在4左右。
 gzip_types text/plain application/javascript application/x-javascript text/javascript text/xml text/css;  #需要压缩哪些响应类型的资源，多个空格隔开。不建议压缩图片，下面会讲为什么。

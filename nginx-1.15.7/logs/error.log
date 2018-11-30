@@ -1,0 +1,2 @@
+2018/11/30 16:15:26 [error] 16728#8084: *1 CreateFile() "D:\Projects\server\nginx-1.15.7/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8181", referrer: "http://localhost:8181/"
+2018/11/30 16:31:26 [emerg] 21792#4580: duplicate location "/" in D:\Projects\server\nginx-1.15.7/conf/nginx.conf:44
